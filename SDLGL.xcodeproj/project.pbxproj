@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA3A6CE1AB0F756000A74F8 /* SDLGL in CopyFiles */ = {isa = PBXBuildFile; fileRef = AAECCEFA1AA9220900461A06 /* SDLGL */; };
+		AAA3A6D01AB10B25000A74F8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA3A6CF1AB10B25000A74F8 /* OpenGL.framework */; };
+		AAECCEFE1AA9220900461A06 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAECCEFD1AA9220900461A06 /* main.cpp */; };
+		AAECCF051AA9221E00461A06 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAECCF041AA9221E00461A06 /* SDL2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAECCEF81AA9220900461A06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = /Users/paulh/Documents/code/SDLGL/Products;
+			dstSubfolderSpec = 0;
+			files = (
+				AAA3A6CE1AB0F756000A74F8 /* SDLGL in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAA3A6CF1AB10B25000A74F8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AAECCEFA1AA9220900461A06 /* SDLGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAECCEFD1AA9220900461A06 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AAECCF041AA9221E00461A06 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAECCEF71AA9220900461A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA3A6D01AB10B25000A74F8 /* OpenGL.framework in Frameworks */,
+				AAECCF051AA9221E00461A06 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAECCEF11AA9220900461A06 = {
+			isa = PBXGroup;
+			children = (
+				AAA3A6CF1AB10B25000A74F8 /* OpenGL.framework */,
+				AAECCF041AA9221E00461A06 /* SDL2.framework */,
+				AAECCEFC1AA9220900461A06 /* SDLGL */,
+				AAECCEFB1AA9220900461A06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAECCEFB1AA9220900461A06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAECCEFA1AA9220900461A06 /* SDLGL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAECCEFC1AA9220900461A06 /* SDLGL */ = {
+			isa = PBXGroup;
+			children = (
+				AAECCEFD1AA9220900461A06 /* main.cpp */,
+			);
+			path = SDLGL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAECCEF91AA9220900461A06 /* SDLGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAECCF011AA9220900461A06 /* Build configuration list for PBXNativeTarget "SDLGL" */;
+			buildPhases = (
+				AAECCEF61AA9220900461A06 /* Sources */,
+				AAECCEF71AA9220900461A06 /* Frameworks */,
+				AAECCEF81AA9220900461A06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLGL;
+			productName = SDLGL;
+			productReference = AAECCEFA1AA9220900461A06 /* SDLGL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAECCEF21AA9220900461A06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Telestream;
+				TargetAttributes = {
+					AAECCEF91AA9220900461A06 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AAECCEF51AA9220900461A06 /* Build configuration list for PBXProject "SDLGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAECCEF11AA9220900461A06;
+			productRefGroup = AAECCEFB1AA9220900461A06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAECCEF91AA9220900461A06 /* SDLGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAECCEF61AA9220900461A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAECCEFE1AA9220900461A06 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAECCEFF1AA9220900461A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AAECCF001AA9220900461A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AAECCF021AA9220900461A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAECCF031AA9220900461A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAECCEF51AA9220900461A06 /* Build configuration list for PBXProject "SDLGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAECCEFF1AA9220900461A06 /* Debug */,
+				AAECCF001AA9220900461A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAECCF011AA9220900461A06 /* Build configuration list for PBXNativeTarget "SDLGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAECCF021AA9220900461A06 /* Debug */,
+				AAECCF031AA9220900461A06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAECCEF21AA9220900461A06 /* Project object */;
+}
